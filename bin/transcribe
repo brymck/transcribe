@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby -wKU
+require "transcribe"
+
+language_name, file = ARGV
+
+# Grab text from file if it exists, using text otherwise. We need to duplicate that text if we're
+# using it because it's immutable.
+text = File.exist?(file) ? File.read(file).downcase : file.dup
+
+language = Transcribe::Language.new(language_name)
+puts language.transcribe(text)

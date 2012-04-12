@@ -1,0 +1,65 @@
+---
+# VOWELS
+# Diphthongs
+- auw: ʌu
+- aa: aː
+- ei: ɛi
+- ee: eː
+- eu: øː
+- ie: i
+- ij: ɛi
+- oe: u
+- oo: oː
+- ui: œy
+- uu: yː
+
+# Monophthongs
+- a: ɑ
+- e: ɛ
+- i: ɪ
+- o: ɔ
+- u: ʏ
+
+# CONSONANTS
+# Diphthongs
+- sch: sx
+- ch: x
+- ck: k
+- ng: ŋ
+- nj: nj
+- sj: ʃ
+- tj: tj
+
+# Special
+- b: p
+  word_final: true
+- d: t
+  word_final: true
+- g: x
+  word_initial: true
+
+# Monophthongs
+- b: b
+  repeatable: true
+- d: d
+  repeatable: true
+- f: f
+- g: ɣ
+- h: ɦ
+- j: j
+- k: k
+  repeatable: true
+- l: l
+  repeatable: true
+- m: m
+- n: n
+- p: p
+  repeatable: true
+- r: r
+- s: s
+  repeatable: true
+- t: t
+  repeatable: true
+- v: v
+- w: ʋ
+- z: z
