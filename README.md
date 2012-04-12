@@ -27,7 +27,7 @@ Transcribe a file:
 
     transcribe dutch hello_world.txt
 
-Write transcription to a file
+Write transcription to a file:
 
     transcribe dutch "hallo mensen" > hello_world.txt
 
